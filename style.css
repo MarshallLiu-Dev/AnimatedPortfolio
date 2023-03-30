@@ -239,9 +239,71 @@ button a{
 
 
 
+@media screen and (max-width:780px) {
+    .navItems, .wrapper, .cols .cols1, .imgbox, .multText .post_avatarPerfil, .imgbox{
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .container{
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+        .navItems{
+        float: none;
+        width: 100%;
+    }
+        .container{
+        width: auto;
+        height: auto;
+    }
+        .navItems, .wrapper, .cols .cols1, .imgbox, .multText .post_avatarPerfil, .imgbox{
+        width: auto;
+        height: auto;
+    }
+         body{
+        overflow: scroll;
+    }
+        .btns{
+        position: relative;
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+}
 
 
 
+@media screen and (max-width: 375px) {
+        .navItems{
+        float: none;
+        width: 100%;
+    }
+        .container{
+        width: auto;
+        height: auto;
+    }
+        .navItems, .wrapper, .cols .cols1, .imgbox, .multText .post_avatarPerfil, .imgbox{
+        width: auto;
+        height: auto;
+        display: flex;
+    }
+         body{
+        overflow: scroll;
+    }
+        .btns{
+        position: relative;
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+}
 
 
 
